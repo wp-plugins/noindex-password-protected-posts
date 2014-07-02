@@ -20,5 +20,8 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 == Changelog ==
 
+= 1.0.1 - July 2, 2014 =
+* Fixed PHP notice: Use of undefined constant kgnoipp_print_header
+
 = 1.0 - June 30, 2014 =
 * Initial release

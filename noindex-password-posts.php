@@ -3,7 +3,7 @@
 Plugin Name: Noindex Password-Protected Posts
 Plugin URI: http://www.kylegilman.net/2014/06/30/noindex-password-protected-wordpress-posts/
 Description: Disables search-engine indexing for all password-protected posts.
-Version: 1.0
+Version: 1.0.1
 Author: Kyle Gilman
 Author URI: http://www.kylegilman.net/
 Text Domain: noindex-password-posts
@@ -32,6 +32,6 @@ function kgnoipp_print_header() {
 
 }
 
-add_action('wp_head', kgnoipp_print_header);
+add_action('wp_head', 'kgnoipp_print_header');
 
 ?>
